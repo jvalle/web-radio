@@ -6,3 +6,24 @@ body {
 a {
   color: #00B7FF;
 }
+
+p {
+    margin-left: 4px;
+}
+
+#dropbox {
+    border: 4px dashed #666;
+    border-radius: 8px;
+    display: inline-block;
+    height: 150px;
+    line-height: 146px;
+    text-align: center;
+    transition: 300ms;
+    width: 200px;
+}
+
+#dropbox.hover {
+    /*background: #eee;*/
+    border: 4px dashed #ccc;
+    color: #ccc;
+}
